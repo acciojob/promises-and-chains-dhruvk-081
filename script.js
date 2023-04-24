@@ -17,7 +17,7 @@ form.addEventListener('onsubmit', (event) => {
 		setTimeout(() => {
 			if(age >= 18) resolve();
 			reject();
-		}, 4 * 1000);
+		}, 4000);
 	});
 
 	promise.then(() => {
